@@ -13,6 +13,7 @@ public class Main {
       iphone.atender();
       iphone.adicionarContato();
       iphone.removerContato();
+      iphone.iniciarCorreioVoz();
       
       System.out.print("\n");
       

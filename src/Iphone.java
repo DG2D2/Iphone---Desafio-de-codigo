@@ -36,6 +36,11 @@ public class Iphone implements Ipod, Telephone, Internet{
     public void removerContato () {
       System.out.println("Removendo contato do Iphone.");
     }
+
+    @Override
+    public void iniciarCorreioVoz () {
+      System.out.println("Iniciando correio de voz.");
+    }
     
     //========================================================================
     

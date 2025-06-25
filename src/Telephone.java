@@ -3,6 +3,7 @@ public interface Telephone {
     void atender();
     void adicionarContato();
     void removerContato();
+    void iniciarCorreioVoz();
   
   }
   
