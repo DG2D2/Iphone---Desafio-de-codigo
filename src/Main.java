@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+      
+      Iphone iphone = new Iphone();
+      
+      iphone.selecionarMusica();
+      iphone.tocarMusica();
+      iphone.pausar();
+
+      System.out.print("\n");
+      
+      iphone.ligar();
+      iphone.atender();
+      iphone.adicionarContato();
+      iphone.removerContato();
+      
+      System.out.print("\n");
+      
+      iphone.navegar();
+      iphone.pesquisar();
+      
+  }
+}
