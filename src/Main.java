@@ -18,6 +18,8 @@ public class Main {
       
       iphone.navegar();
       iphone.pesquisar();
-      
+      iphone.exibirPagina();
+      iphone.adicionarNovaAba();
+      iphone.atualizarPagina();
   }
 }
